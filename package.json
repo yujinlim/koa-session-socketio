@@ -1,0 +1,45 @@
+{
+  "name": "koa-session-socketio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "socket.io middleware to get session from cookie, this is useful when running socket.io independently from any http framework such as koa/express",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "author": {
+    "name": "Yu Jin",
+    "email": "adamlyj89@gmail.com"
+  },
+  "homepage": "https://github.com/yujinlim/koa-session-socketio",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/yujinlim/koa-session-socketio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yujinlim/koa-session-socketio.git"
+  },
+  "dependencies": {
+    "is-type-of": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "lodash.noop": "^3.0.1",
+    "sinon": "^5.0.7"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "keywords": [
+    "koa",
+    "koa middleware",
+    "middleware",
+    "socket.io",
+    "socketio",
+    "socket io koa-session",
+    "koa-session"
+  ]
+}
